@@ -1,0 +1,65 @@
+#note-body {
+  text-align: left;
+  word-wrap: break-word;
+}
+
+#delete {
+  color: #f3f3f3;
+  background-color: #FF0000;
+  font-size: 20px;
+  align-self: flex-end;
+  padding-right: 10px;
+}
+
+#timestamp {
+  align-self: start;
+  color: white;
+}
+
+
+.titleInput {
+  background: #171717;
+  color: whitesmoke;
+  width: 200px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.bodyInput {
+  background: #171717;
+  color: whitesmoke;
+  height: 150px;
+  width: 200px;
+  font-size: 15px;
+}
+
+.notes-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.notes {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  margin-right: 15 px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  background: #171717;
+}
+
+.noteHeader{
+  text-transform: uppercase;
+}
